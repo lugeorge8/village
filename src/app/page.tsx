@@ -75,6 +75,16 @@ export default function HomePage() {
             What kids actually do when they show up.
           </div>
         </Link>
+
+        <Link
+          href="/logistics"
+          className="rounded-3xl border border-zinc-200 bg-white p-6 hover:bg-zinc-50"
+        >
+          <div className="text-lg font-semibold">Logistics</div>
+          <div className="mt-2 text-sm text-zinc-700">
+            Snacks/supplies, parent contribution, invite-only.
+          </div>
+        </Link>
       </div>
 
       <div className="mt-10 rounded-3xl border border-zinc-200 bg-white p-6">

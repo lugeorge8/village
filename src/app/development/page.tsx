@@ -44,6 +44,23 @@ export default function DevelopmentPlanPage() {
 
       <div className="mt-4 rounded-3xl border border-zinc-200 bg-white p-6">
         <div className="text-xs font-semibold uppercase tracking-[0.22em] text-zinc-500">
+          Governance & reporting
+        </div>
+        <div className="mt-4 grid gap-3 sm:grid-cols-2">
+          <div className="rounded-2xl bg-zinc-50 px-4 py-3 text-sm text-zinc-700">
+            <span className="font-semibold">Final authority:</span> Village leader/elder
+          </div>
+          <div className="rounded-2xl bg-zinc-50 px-4 py-3 text-sm text-zinc-700">
+            <span className="font-semibold">Monthly metrics:</span> attendance, incidents, feedback
+          </div>
+        </div>
+        <div className="mt-4 text-xs text-zinc-500">
+          Even in an invite-only program, we track a few metrics so we can adjust early.
+        </div>
+      </div>
+
+      <div className="mt-4 rounded-3xl border border-zinc-200 bg-white p-6">
+        <div className="text-xs font-semibold uppercase tracking-[0.22em] text-zinc-500">
           Beta → scale checklist
         </div>
         <div className="mt-4 grid gap-3 sm:grid-cols-2">
