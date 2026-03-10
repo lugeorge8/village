@@ -12,7 +12,7 @@ export function SiteShell({
   children: React.ReactNode;
 }) {
   return (
-    <div className="min-h-screen bg-zinc-50 text-zinc-900">
+    <div className="min-h-screen bg-[var(--background)] text-[var(--foreground)]">
       <header className="border-b border-zinc-200 bg-white/70 backdrop-blur">
         <div className="mx-auto w-full max-w-5xl px-6 py-6">
           <div className="flex flex-wrap items-center justify-between gap-3">
@@ -24,7 +24,7 @@ export function SiteShell({
                 <Link
                   key={n.href}
                   href={n.href}
-                  className="rounded-full border border-zinc-200 bg-white px-3 py-1.5 text-xs font-semibold text-zinc-900 hover:bg-zinc-50"
+                  className="rounded-full border border-zinc-200 bg-white px-3 py-1.5 text-xs font-semibold text-zinc-900 hover:bg-[color-mix(in_oklab,var(--abide-accent)_10%,white)]"
                 >
                   {n.title}
                 </Link>
