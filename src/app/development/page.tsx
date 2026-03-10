@@ -48,7 +48,7 @@ export default function DevelopmentPlanPage() {
         </div>
         <div className="mt-4 grid gap-3 sm:grid-cols-2">
           <div className="rounded-2xl bg-zinc-50 px-4 py-3 text-sm text-zinc-700">
-            <span className="font-semibold">Final authority:</span> Village leader/elder
+            <span className="font-semibold">Final authority:</span> Elder Jason Liang
           </div>
           <div className="rounded-2xl bg-zinc-50 px-4 py-3 text-sm text-zinc-700">
             <span className="font-semibold">Monthly metrics:</span> attendance, incidents, feedback
