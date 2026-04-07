@@ -5,7 +5,7 @@ export const SUMMARY = {
 
   // Recruiting + shareable defaults (edit as you finalize details)
   contact: {
-    email: 'TBD@example.com',
+    email: 'temp@gmail.com',
     ctaLabel: 'Email to volunteer',
   },
 
