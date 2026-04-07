@@ -38,7 +38,7 @@ export default function PeoplePage() {
             </li>
           </ul>
           <div className="mt-4 text-xs text-zinc-500">
-            We’ll start with the smallest team needed for safety and consistency, then scale as we learn.
+            Requirements: background check + commitment of 2 shifts per month.
           </div>
         </div>
       </div>

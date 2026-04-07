@@ -45,6 +45,10 @@ export default function HomePage() {
               <span className="font-semibold">Days</span>
               <span>{SUMMARY.beta.days.join(' + ')}</span>
             </div>
+            <div className="flex items-center justify-between rounded-2xl bg-zinc-50 px-4 py-3">
+              <span className="font-semibold">Hours</span>
+              <span>{(SUMMARY.beta as any).hours}</span>
+            </div>
           </div>
           <div className="mt-4 text-xs text-zinc-500">{SUMMARY.beta.note}</div>
 

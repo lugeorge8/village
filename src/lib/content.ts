@@ -6,19 +6,24 @@ export const SUMMARY = {
   // Recruiting + shareable defaults (edit as you finalize details)
   contact: {
     email: 'TBD@example.com',
-    ctaLabel: 'Volunteer / ask questions',
+    ctaLabel: 'Email to volunteer',
   },
 
   beta: {
     kids: 'TBD',
     staff: 'TBD',
-    days: ['TBD'],
+    days: ['Wednesday', 'Thursday'],
+    hours: '12:00 PM – 6:00 PM',
     note: 'Starting small so we can run it safely and consistently — then scale.',
   },
 
   audience: {
-    ages: 'TBD',
-    note: 'Designed for families in our community who need reliable childcare support.',
+    ages: '5–13',
+    note: 'Initial pilot age range: 5-year-olds through 13-year-olds.',
+  },
+
+  volunteering: {
+    requirements: ['Background check', 'Commitment: 2 shifts per month'],
   },
 
   // Optional: list specific people/groups you’re recruiting from
